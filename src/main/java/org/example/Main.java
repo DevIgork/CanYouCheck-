@@ -13,7 +13,6 @@ public class Main {
         window.setUndecorated(true);
         window.setExtendedState(JFrame.MAXIMIZED_BOTH);
         window.setVisible(true);
-
         try {
             AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("src/main/resources/rd2.wav"));
             Clip clip = AudioSystem.getClip();
